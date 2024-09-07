@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "css",
+			"path": ".."
+		},
+		{
+			"name": "validation-form",
+			"path": "../../validation-form"
+		},
+		{
+			"name": "игра в слова",
+			"path": "../../../../Users/user/Downloads/Telegram Desktop/игра в слова/игра в слова"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "игра в слова"
+	}
+}

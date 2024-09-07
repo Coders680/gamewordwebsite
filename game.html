@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Игра в слова</title>
+</head>
+
+<body>
+    <div class="wrapper">
+      <h1>С днем рождения Роза 🎉</h1>
+        <h1>Игра угадай слово</h1>
+        
+        <div class="content">
+          
+          <input type="text" class="type-input" maxlength="1" />
+          <div class="word"></div>
+          <div class="info">
+            <p class="guess">Попыток: <span></span></p>
+            <p class="wrong">Неправильные буквы: <span></span></p>
+            <p class="hint">Подсказка: <span></span></p>
+            <p class="word-counter">Слово: 1/15</p>
+            <p>Отгадано слов: <span id="correctWordCount">0</span> из 15</p> 
+          
+            <div class="result" style="display: none;"></div> 
+          </div>
+          <div class="buttons">
+            <button class="reset">Следующее слово</button>
+            <button class="showhint">Показать подсказку</button>
+          </div>
+        </div>
+      </div>
+
+    <script src="words-db.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
