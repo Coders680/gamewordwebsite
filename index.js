@@ -105,7 +105,7 @@ function startNewGame() {
    document.querySelector(".buttons").innerHTML = ""; // очистить кнопки
       
 // Отображение результата
-const resultText = `Вы отгадали ${correctWordCount} слов из ${maxWordCount}\n Обновите страницу для начала новой игры`;
+const resultText = `Роза, ты отгадала ${correctWordCount} слов из ${maxWordCount}\n Обнови страницу для начала новой игры`;
 const resultElement = document.createElement("div");
 resultElement.classList.add("result");
 resultElement.innerText = resultText;
